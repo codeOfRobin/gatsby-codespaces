@@ -7,6 +7,10 @@
   Gatsby minimal starter
 </h1>
 
+## CodeSpaces Support
+
+✨ Tap `.` (and `npm run develop` in your terminal) and you should have a working gatsby site within CodeSpaces.
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
