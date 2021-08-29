@@ -2,16 +2,11 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.187.0/containers/elixir-phoenix-postgres
 {
     "name": "Ubuntu",
-    "dockerComposeFile": "docker-compose.yml",
-    "service": "nodejs",
+    "dockerFile": "Dockerfile",
     "workspaceFolder": "/workspace",
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     "forwardPorts": [
-        8000
+        3000
     ],
-    "postCreateCommand": "bash -c gatsby develop",
-    // "postAttachCommand": "bash -c scripts/migrate.sh",
-    // Use 'postCreateCommand' to run commands after the container is created.
-    // "postCreateCommand": "mix deps.get"
     // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
 }

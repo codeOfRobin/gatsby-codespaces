@@ -32,11 +32,7 @@ RUN asdf install nodejs 14.15.1
 RUN asdf global nodejs 14.15.1
 RUN asdf reshim nodejs
 
+# ugh
+RUN ~/.asdf/shims/npm install
+
 CMD ["/bin/bash", "-c"]
-
-# [Optional] Uncomment this section to install additional OS packages.
-# RUN apt-get update \
-#     && export DEBIAN_FRONTEND=noninteractive \
-#     && apt-get -y install --no-install-recommends <your-package-list-here>
-
-# [Optional] Uncomment this line to install additional package.
